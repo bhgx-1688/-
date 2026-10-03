@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>抱朴时｜顺时以养身，守静以抱朴</title>
+<meta name="theme-color" content="#F5F2EB">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!-- PWA Manifest 内嵌 -->
+<link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiQmFvUHVTaGkiLCJzaG9ydF9uYW1lIjoiQmFvUHVTaSIsImRlc2NyaXB0aW9uIjoiU3Vuc2hpIHl5YW5nIHNoZW5nLCBzaG91IGppbmcgeSkgYmFvIHB1Iiwic3RhcnRfdXJsIjoiLiIsImRpc3BsYXkiOiJzdGFuZGFsIiwiaWNvbnMiOlt7InNyYyI6ImRhdGE6aW1hZ2Uvc3ZnK3htbCwlM0NzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB3aWR0aD0nMTI4JyBoZWlnaHQ9JzEyOCclM0NjaXJjbGUgY3g9JzY0JyBjeT0nNjQnIHI9JzYwJyBmaWxsPSclMjNGNUYyRUInIHN0cm9rZT0nJTIzM0E1OTU5JyBzdHJva2Utd2lkdGg9JzMnLyUzQ3RleHQgeD0nNjQnIHk9JzcyJyBmb250LXNpemU9JzM2JyB0ZXh0LWFuY2hvcj0nbWlkZGxlJyBmaWxsPSclMjMzQTU5NTknJTNDdGV4dCUzRSVFNiU5QSVCNCVFNiU5QyVCQyUzQy90ZXh0JTNFJTNDc3ZnJTNFIiwic2l6ZXMiOiIxMjh4MTI4IiwidHlwZSI6ImltYWdlL3N2Zyt4bWwifV19">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'Noto Serif SC', serif;}
+:root{
+  --stoneBlue:#3A5959;
+  --ochre:#946B48;
+  --xuanPaper:#F5F2EB;
+  --ink:#222222;
+  --inkLight:#666666;
+}
+body{
+  background-color: var(--xuanPaper);
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23d9d2c5' fill-opacity='0.3' fill-rule='evenodd'/%3E%3C/svg%3E");
+  color: var(--ink);
+  min-height:100vh;
+  padding:24px 16px;
+}
+.container{max-width:900px;margin:0 auto;}
+header{text-align:center;margin-bottom:32px;padding-bottom:16px;border-bottom:1px solid #d4c9b8;}
+h1{font-weight:500;font-size:28px;color:var(--stoneBlue);letter-spacing:4px;}
+.slogan{margin-top:8px;color:var(--inkLight);font-size:15px;letter-spacing:1px;}
+.time-card{
+  background:rgba(255,255,255,0.55);
+  border:1px solid #d4c9b8;
+  border-radius:8px;
+  padding:24px;
+  margin-bottom:24px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.04);
+}
+.current-shichen{font-size:24px;color:var(--stoneBlue);margin-bottom:12px;font-weight:500;}
+.shichen-desc{font-size:16px;line-height:1.8;color:var(--ink);}
+.tip{margin-top:14px;color:var(--ochre);}
+.tab-wrap{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;}
+.tab{
+  padding:10px 18px;
+  border:1px solid #d4c9b8;
+  background:rgba(255,255,255,0.4);
+  border-radius:6px;
+  cursor:pointer;
+  transition:0.2s;
+}
+.tab.active{background:var(--stoneBlue);color:#fff;border-color:var(--stoneBlue);}
+.tab-content{display:none;}
+.tab-content.active{display:block;}
+.shichen-list{display:grid;grid-template-columns:repeat(auto-fill, minmax(260px,1fr));gap:14px;}
+.shichen-item{
+  background:rgba(255,255,255,0.45);
+  padding:14px;
+  border:1px solid #e2d9cc;
+  border-radius:6px;
+}
+.shichen-item h3{color:var(--stoneBlue);margin-bottom:6px;font-size:17px;}
+.shichen-item p{font-size:14px;line-height:1.6;color:var(--inkLight);}
+.btns{margin-top:10px;display:flex;gap:8px;}
+.btn{
+  padding:6px 12px;border:none;border-radius:4px;cursor:pointer;font-size:14px;
+}
+.btn-primary{background:var(--stoneBlue);color:#fff;}
+.btn-soft{background:#eee;color:var(--inkLight);}
+.note-area{width:100%;min-height:120px;padding:12px;border:1px solid #d4c9b8;background:rgba(255,255,255,0.6);border-radius:6px;margin:12px 0;resize:vertical;}
+.note-list{margin-top:16px;}
+.note-item{padding:10px;border-bottom:1px dashed #ddd;font-size:14px;color:var(--inkLight);}
+.setting-row{margin:12px 0;display:flex;align-items:center;gap:8px;}
+.quote-block{padding:16px;background:rgba(255,255,255,0.4);border-left:3px solid var(--ochre);margin:14px 0;line-height:1.8;color:var(--inkLight);}
+
+/* 典籍折叠样式 */
+.sutra-item{
+  background:rgba(255,255,255,0.5);
+  border:1px solid #d4c9b8;
+  border-radius:6px;
+  margin-bottom:12px;
+  overflow:hidden;
+}
+.sutra-title{
+  padding:14px 16px;
+  font-size:17px;
+  color:var(--stoneBlue);
+  font-weight:500;
+  cursor:pointer;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  transition:0.2s;
+}
+.sutra-title:hover{background:rgba(58,89,89,0.05);}
+.sutra-title .arrow{transition:0.3s;color:var(--inkLight);font-size:14px;}
+.sutra-item.open .sutra-title .arrow{transform:rotate(90deg);}
+.sutra-content{
+  display:none;
+  padding:0 16px 16px;
+  border-top:1px dashed #d4c9b8;
+}
+.sutra-item.open .sutra-content{display:block;}
+.sutra-section{margin-top:14px;}
+.sutra-section h4{
+  font-size:15px;
+  color:var(--ochre);
+  margin-bottom:8px;
+  font-weight:500;
+}
+.sutra-original{
+  line-height:2;
+  font-size:15px;
+  color:var(--ink);
+  text-align:justify;
+}
+.sutra-translation{
+  line-height:1.8;
+  font-size:14px;
+  color:var(--inkLight);
+  text-align:justify;
+}
+.sutra-divider{
+  height:1px;
+  background:#e2d9cc;
+  margin:12px 0;
+}
+
+@media (max-width:600px){
+  h1{font-size:22px;letter-spacing:2px;}
+  .shichen-list{grid-template-columns:1fr;}
+  .sutra-title{font-size:16px;}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>抱朴时</h1>
+<div class="slogan">顺时以养身，守静以抱朴</div>
+</header>
+
+<div class="time-card">
+  <div class="current-shichen" id="nowShichen">正在计算时辰...</div>
+  <div class="shichen-desc" id="shichenDesc"></div>
+  <div class="tip" id="shichenTip"></div>
+</div>
+
+<div class="tab-wrap">
+  <div class="tab active" data-tab="shichen">观时</div>
+  <div class="tab" data-tab="self">省己</div>
+  <div class="tab" data-tab="book">藏简</div>
+  <div class="tab" data-tab="setting">守一 · 设置</div>
+</div>
+
+<!-- 观时页面 -->
+<div class="tab-content active" id="tab-shichen">
+  <div class="shichen-list" id="shichenList"></div>
+</div>
+
+<!-- 省己页面：自省札记 -->
+<div class="tab-content" id="tab-self">
+  <h3 style="margin-bottom:10px;">抱朴三省</h3>
+  <div class="quote-block">
+    ① 有为而有争否？<br>
+    ② 心神是否妄耗在外？<br>
+    ③ 饮食起居是否顺身之性？
+  </div>
+  <textarea class="note-area" id="noteInput" placeholder="写下今日自省札记，仅存于本机..."></textarea>
+  <div class="btns">
+    <button class="btn btn-primary" id="saveNote">保存札记</button>
+    <button class="btn btn-soft" id="clearNotes">清空全部札记</button>
+  </div>
+  <div class="note-list" id="noteList"></div>
+</div>
+
+<!-- 藏简页面：道家经典典籍 -->
+<div class="tab-content" id="tab-book">
+
+  <div class="sutra-item open">
+    <div class="sutra-title">
+      <span>太上老君说常清静经</span>
+      <span class="arrow">▸</span>
+    </div>
+    <div class="sutra-content">
+      <div class="sutra-section">
+        <h4>原文</h4>
+        <div class="sutra-original">
+          老君曰：大道无形，生育天地；大道无情，运行日月；大道无名，长养万物。吾不知其名，强名曰道。<br><br>
+          夫道者，有清有浊，有动有静。天清地浊，天动地静。男清女浊，男动女静。降本流末，而生万物。清者浊之源，动者静之基。人能常清静，天地悉皆归。<br><br>
+          夫人神好清，而心扰之；人心好静，而欲牵之。常能遣其欲而心自静，澄其心而神自清。自然六欲不生，三毒消灭。所以不能者，为心未澄，欲未遣也。<br><br>
+          能遣之者，内观其心，心无其心；外观其形，形无其形；远观其物，物无其物。三者既悟，惟见于空。观空亦空，空无所空；所空既无；无无亦无；无无既无，湛然常寂；寂无所寂，欲岂能生？欲既不生，即是真静。<br><br>
+          真静应物，真常得性。常应常静，常清静矣。如此清静，渐入真道。既入真道，名为得道。虽名得道，实无所得；为化众生，名为得道。能悟之者，可传圣道。
+        </div>
+      </div>
+      <div class="sutra-divider"></div>
+      <div class="sutra-section">
+        <h4>白话译文</h4>
+        <div class="sutra-translation">
+          大道没有形迹，却孕育了天地；大道没有情意，却运行着日月；大道没有名号，却滋养着万物。我不知道它的名字，勉强称它为“道”。<br><br>
+          道有清有浊，有动有静。天是清的，地是浊的；天是动的，地是静的。男子属清，女子属浊；男子主动，女子主静。从本源降落到末流，便衍生出万物。清是浊的源头，静是动的根基。人若能常守清静，天地都会归附于他。<br><br>
+          人的元神本自清净，却被心念扰乱；人心本自宁静，却被欲望牵引。若能常常排遣欲望，心自然就平静了；澄净心念，神自然就清明了。自然而然六欲不生，三毒消弭。做不到的人，是因为心还没澄净，欲望还没排遣。<br><br>
+          能排遣欲望的人，向内观照本心，心中没有执着的念头；向外观察身形，身上没有执着的形相；远观万物，外界没有执着的事物。三者都洞悟了，便只见到空性。观空也达到空的极致，没有什么可空的；空到极致，连“无”也不存在；连无都没有了，便是澄澈寂静的本然状态。寂静也没有所寂静的对象，欲望又从何而生？<br><br>
+          真正的静能顺应万物，真正的常性能保全本性。常顺应也常清静，就是恒久的清静了。达到这样的清静，便渐渐契入真道。契入真道，就叫做得道。虽名为得道，其实一无所得；只是为了教化众生，才假名为得道。能领悟这个道理的人，可以传授圣道。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sutra-item">
+    <div class="sutra-title">
+      <span>黄帝阴符经</span>
+      <span class="arrow">▸</span>
+    </div>
+    <div class="sutra-content">
+      <div class="sutra-section">
+        <h4>原文</h4>
+        <div class="sutra-original">
+          <b>上篇 · 神仙抱一演法章</b><br>
+          观天之道，执天之行，尽矣。天有五贼，见之者昌。五贼在心，施行于天。宇宙在乎手，万化生乎身。天性，人也；人心，机也。立天之道，以定人也。<br><br>
+          天发杀机，移星易宿；地发杀机，龙蛇起陆；人发杀机，天地反覆；天人合发，万化定基。性有巧拙，可以伏藏。九窍之邪，在乎三要，可以动静。火生于木，祸发必克；奸生于国，时动必溃。知之修炼，谓之圣人。<br><br>
+          <b>中篇 · 富国安民演法章</b><br>
+          天生天杀，道之理也。天地，万物之盗；万物，人之盗；人，万物之盗。三盗既宜，三才既安。故曰：食其时，百骸理；动其机，万化安。人知其神之神，不知不神之所以神也。<br><br>
+          日月有数，大小有定，圣功生焉，神明出焉。其盗机也，天下莫能见，莫能知。君子得之固躬，小人得之轻命。<br><br>
+          <b>下篇 · 强兵战胜演术章</b><br>
+          瞽者善听，聋者善视。绝利一源，用师十倍；三返昼夜，用师万倍。心生于物，死于物，机在目。天之无恩，而大恩生。迅雷烈风，莫不蠢然。至乐性余，至静性廉。天之至私，用之至公。<br><br>
+          生者死之根，死者生之根。恩生于害，害生于恩。愚人以天地文理圣，我以时物文理哲。人以愚虞圣，我以不愚虞圣；人以奇期圣，我以不奇期圣。故曰：沉水入火，自取灭亡。自然之道静，故天地万物生。天地之道浸，故阴阳胜。阴阳相推，而变化顺矣。
+        </div>
+      </div>
+      <div class="sutra-divider"></div>
+      <div class="sutra-section">
+        <h4>白话译文</h4>
+        <div class="sutra-translation">
+          观察天地运行的规律，遵循天道行事，天地间的奥妙就尽在其中了。天地间有五行相生相克的气机，能洞察它的人就能昌盛。把五行运化之理存于心，行事顺应天道，宇宙就像握在手中，万物变化都由自身生发。天性赋予了人，人心便是天机。依照天道来安定人事。<br><br>
+          上天发动肃杀之机，星辰移位；大地发动肃杀之机，龙蛇从地底升起；人发动肃杀之机，天地为之颠倒。天人合力发动，万物变化便奠定根基。人性有巧有拙，都可以隐藏起来。九窍的祸患，关键在耳、目、口三要害，控制它们的动静。火从木中生出，灾祸发作必然克制木；奸邪生于国中，时机一到必然溃败。懂得这样修炼的，称为圣人。<br><br>
+          天地生养万物也肃杀万物，这是大道的规律。天地汲取万物精华，万物汲取人的精气，人也汲取万物滋养。三者相互取用适度，天、地、人就都安稳。所以说：饮食顺应时节，身体就调理顺畅；行动把握时机，万事就安定有序。人们只知道神奇的事物神奇，却不知道平常事物才是真正的神奇。<br><br>
+          日月运行有定数，盈亏大小有定则，圣人的功业由此建立，神明的智慧由此产生。这种盗取生机的微妙天机，世人看不见也看不懂。君子掌握它能保全自身，小人掌握它会轻易丧命。<br><br>
+          失明的人听觉格外灵敏，失聪的人视觉格外专注。断绝一处利欲源头，做事成效能高出十倍；昼夜反复反省，成效能高出万倍。心念因外物而生，也因追逐外物而死，关键在眼睛。天地看似没有恩情，却孕育了最大的恩情。迅雷烈风之中，万物无不蠢蠢而动。极致的快乐性情舒展，极致的宁静性情收敛。天地最是自私，运作起来却最是公正。<br><br>
+          生是死的根源，死是生的根基。恩情从伤害中产生，伤害从恩情中产生。愚人以为天地的文饰条理是神圣，我认为时序万物的条理才是智慧。人以诡诈为高明，我以不诡诈为高明；人以出奇为高明，我以不出奇为高明。所以说：沉水入火，是自取灭亡。自然之道是静的，所以天地万物生长。天地之道是浸润的，所以阴阳消长。阴阳相互推移，变化就自然顺畅了。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sutra-item">
+    <div class="sutra-title">
+      <span>道德经 · 精选章句</span>
+      <span class="arrow">▸</span>
+    </div>
+    <div class="sutra-content">
+      <div class="sutra-section">
+        <h4>第一章 · 众妙之门</h4>
+        <div class="sutra-original">
+          道可道，非常道；名可名，非常名。无名，天地之始；有名，万物之母。故常无欲，以观其妙；常有欲，以观其徼。此两者，同出而异名，同谓之玄。玄之又玄，众妙之门。
+        </div>
+        <div class="sutra-translation">
+          可以说出来的道，就不是永恒的道；可以叫出来的名，就不是永恒的名。无，是天地的本始；有，是万物的根源。所以常从无欲中观察道的奥妙，常从有欲中观察道的边界。这两者同出一源而名称不同，都叫做深远玄妙。深远又深远，是一切奥妙的总门。
+        </div>
+      </div>
+      <div class="sutra-divider"></div>
+      <div class="sutra-section">
+        <h4>第二章 · 无为而教</h4>
+        <div class="sutra-original">
+          天下皆知美之为美，斯恶已；皆知善之为善，斯不善已。故有无相生，难易相成，长短相较，高下相倾，音声相和，前后相随。是以圣人处无为之事，行不言之教。万物作焉而不辞，生而不有，为而不恃，功成而弗居。夫唯弗居，是以不去。
+        </div>
+        <div class="sutra-translation">
+          天下都知道美是美，丑就显现了；都知道善是善，不善就显现了。所以有和无相互生成，难和易相互成就，长和短相互比较，高和下相互依存，音和声相互应和，前和后相互跟随。因此圣人做无为的事，行不言的教。万物兴起而不干预，生养万物而不占有，有所作为而不依仗，成就功业而不居功。正因为不居功，所以功绩不会失去。
+        </div>
+      </div>
+      <div class="sutra-divider"></div>
+      <div class="sutra-section">
+        <h4>第八章 · 上善若水</h4>
+        <div class="sutra-original">
+          上善若水。水善利万物而不争，处众人之所恶，故几于道。居善地，心善渊，与善仁，言善信，政善治，事善能，动善时。夫唯不争，故无尤。
+        </div>
+        <div class="sutra-translation">
+          最高的善就像水一样。水滋养万物而不与万物相争，停留在众人都厌恶的低处，所以最接近于道。居处善于选择地方，心胸善于保持沉静，待人善于真诚仁爱，说话善于恪守信用，为政善于精简治理，处事善于发挥所长，行动善于把握时机。正因为不争，所以没有过失。
+        </div>
+      </div>
+      <div class="sutra-divider"></div>
+      <div class="sutra-section">
+        <h4>第四十四章 · 知足不辱</h4>
+        <div class="sutra-original">
+          名与身孰亲？身与货孰多？得与亡孰病？是故甚爱必大费，多藏必厚亡。知足不辱，知止不殆，可以长久。
+        </div>
+        <div class="sutra-translation">
+          名声和生命哪个更亲近？生命和财物哪个更重要？得到和失去哪个更有害？所以过分贪恋必定耗费更大，过多积藏必定损失更重。知道满足就不会受辱，知道适可而止就不会有危险，可以长久平安。
+        </div>
+      </div>
+      <div class="sutra-divider"></div>
+      <div class="sutra-section">
+        <h4>第五十六章 · 玄同</h4>
+        <div class="sutra-original">
+          知者不言，言者不知。挫其锐，解其纷，和其光，同其尘，是谓玄同。故不可得而亲，不可得而疏；不可得而利，不可得而害；不可得而贵，不可得而贱。故为天下贵。
+        </div>
+        <div class="sutra-translation">
+          真正懂得的人不妄说，妄说的人并不真懂。挫去锋芒，消解纷扰，含敛光耀，混同尘俗，这就是玄妙齐同的境界。所以对他既无法亲近，也无法疏远；既无法获利，也无法受害；既无法使他尊贵，也无法使他卑贱。因此被天下人所尊崇。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sutra-item">
+    <div class="sutra-title">
+      <span>庄子 · 内篇选读</span>
+      <span class="arrow">▸</span>
+    </div>
+    <div class="sutra-content">
+      <div class="sutra-section">
+        <h4>逍遥游 · 北冥有鱼</h4>
+        <div class="sutra-original">
+          北冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也。怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。<br><br>
+          《齐谐》者，志怪者也。《谐》之言曰：“鹏之徙于南冥也，水击三千里，抟扶摇而上者九万里，去以六月息者也。”野马也，尘埃也，生物之以息相吹也。天之苍苍，其正色邪？其远而无所至极邪？其视下也，亦若是则已矣。<br><br>
+          且夫水之积也不厚，则其负大舟也无力。覆杯水于坳堂之上，则芥为之舟；置杯焉则胶，水浅而舟大也。风之积也不厚，则其负大翼也无力。故九万里则风斯在下矣，而后乃今培风；背负青天而莫之夭阏者，而后乃今将图南。<br><br>
+          至人无己，神人无功，圣人无名。
+        </div>
+        <div class="sutra-translation">
+          北方的大海里有一条鱼，名字叫鲲。鲲的身形庞大，不知道有几千里。它变化成鸟，名字叫鹏。鹏的脊背宽广，不知道有几千里。它奋起而飞，翅膀就像天边的云。这只鸟，海水涌动时就要迁徙到南方的大海。南方的大海，是天然形成的天池。<br><br>
+          《齐谐》是记载怪异事物的书。书中说：“鹏飞往南海时，翅膀拍击水面激起三千里的浪涛，乘着旋风盘旋而上九万里高空，凭借六月的大风才能离开。”山野中游荡的雾气，空中飞扬的尘埃，都是生物的气息吹拂而成的。天空苍茫深邃，这是它本来的颜色吗？还是因为太过遥远看不到尽头呢？鹏从高空往下看，也不过像人抬头看天一样罢了。<br><br>
+          水积聚得不够深厚，就没有力量承载大船。倒一杯水在堂前的低洼处，一根小草就能当船；放上杯子就会粘住，因为水浅而船大。风积聚得不够强劲，就没有力量承载巨大的翅膀。所以鹏高飞九万里，风就在它的下面，然后才能乘风而行；背负着青天毫无阻碍，然后才能向南方飞去。<br><br>
+          修养最高的人能忘掉自我，神明不测的人不求功绩，圣明的人不求名声。
+        </div>
+      </div>
+      <div class="sutra-divider"></div>
+      <div class="sutra-section">
+        <h4>齐物论 · 彼是相生</h4>
+        <div class="sutra-original">
+          物无非彼，物无非是。自彼则不见，自知则知之。故曰彼出于是，是亦因彼。彼是方生之说也。虽然，方生方死，方死方生；方可方不可，方不可方可；因是因非，因非因是。<br><br>
+          是以圣人不由而照之于天，亦因是也。是亦彼也，彼亦是也。彼亦一是非，此亦一是非。果且有彼是乎哉？果且无彼是乎哉？彼是莫得其偶，谓之道枢。枢始得其环中，以应无穷。是亦一无穷，非亦一无穷也。故曰莫若以明。
+        </div>
+        <div class="sutra-translation">
+          万物没有不是“彼”的，也没有不是“此”的。从对方的角度就看不见自身，从自身角度就都能明白。所以说彼是由此产生，此也是因彼而存在。彼和此是相对而生的说法。即便如此，生同时就是死，死同时就是生；可以同时就是不可以，不可以同时就是可以；有因而认为是的，就有因而认为非的。<br><br>
+          因此圣人不走是非对立的路，而是用天道来观照万物，也就是顺应自然的状态。此就是彼，彼就是此。彼有一套是非，此也有一套是非。果真有彼此的分别吗？果真没有彼此的分别吗？彼此都找不到对立面，就是道的枢纽。把握住道的枢纽，才能处在圆环的中心，应对无穷的变化。是是无穷的，非也是无穷的。所以说不如用空明的心境去观照事物的本然。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sutra-item">
+    <div class="sutra-title">
+      <span>太上感应篇</span>
+      <span class="arrow">▸</span>
+    </div>
+    <div class="sutra-content">
+      <div class="sutra-section">
+        <h4>原文</h4>
+        <div class="sutra-original">
+          太上曰：祸福无门，惟人自召；善恶之报，如影随形。<br><br>
+          是以天地有司过之神，依人所犯轻重，以夺人算。算减则贫耗，多逢忧患，人皆恶之，刑祸随之，吉庆避之，恶星灾之，算尽则死。<br><br>
+          又有三台北斗神君，在人头上，录人罪恶，夺其纪算。又有三尸神，在人身中，每到庚申日，辄上诣天曹，言人罪过。月晦之日，灶神亦然。<br><br>
+          凡人有过，大则夺纪，小则夺算。其过大小，有数百事，欲求长生者，先须避之。<br><br>
+          夫心起于善，善虽未为，而吉神已随之；或心起于恶，恶虽未为，而凶神已随之。其有曾行恶事，后自改悔，诸恶莫作，众善奉行，久久必获吉庆，所谓转祸为福也。<br><br>
+          故吉人语善、视善、行善，一日有三善，三年天必降之福。凶人语恶、视恶、行恶，一日有三恶，三年天必降之祸。胡不勉而行之？
+        </div>
+      </div>
+      <div class="sutra-divider"></div>
+      <div class="sutra-section">
+        <h4>白话译文</h4>
+        <div class="sutra-translation">
+          太上老君说：灾祸与福报本没有固定的门径，都是人自己招来的；善与恶的报应，就像影子跟随形体一样，丝毫不差。<br><br>
+          因此天地间有专管过失的神明，依照人所犯过错的轻重，来削减人的寿命。寿命削减了就会贫困耗散，常常遭遇忧愁祸患，人人都厌恶他，刑罚灾祸跟着他，吉祥喜庆避开他，灾星恶煞降祸给他，寿命耗尽就会死去。<br><br>
+          又有三台、北斗星君，在人的头顶之上，记录人的罪恶，削减人的寿数。还有三尸神，住在人的身体里，每到庚申日，就上天庭禀报人的罪过。每月最后一天，灶神也会上天汇报人的善恶。<br><br>
+          凡是人有过错，大的削减十二年寿命，小的削减一百天寿命。这类过错大大小小有几百件，想要长生的人，首先必须避开这些过失。<br><br>
+          心中起了善念，善事虽然还没做，但吉神已经跟随他了；心中起了恶念，恶事虽然还没做，但凶神已经跟随他了。如果有人曾经做过坏事，后来自己悔改，诸恶不作，众善奉行，时间久了必定获得吉祥福庆，这就是所谓的转祸为福。<br><br>
+          所以吉祥的人说话善、看事善、做事善，一天有这三善，三年上天必定降下福报。凶恶的人说话恶、看事恶、做事恶，一天有这三恶，三年上天必定降下灾祸。为什么不努力去行善呢？
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sutra-item">
+    <div class="sutra-title">
+      <span>菜根谭 · 道家修身精选</span>
+      <span class="arrow">▸</span>
+    </div>
+    <div class="sutra-content">
+      <div class="sutra-section">
+        <h4>修省篇</h4>
+        <div class="sutra-original">
+          1. 夜深人静，独坐观心，始知妄穷而真独露，每于此中得大机趣。<br><br>
+          2. 宠辱不惊，闲看庭前花开花落；去留无意，漫随天外云卷云舒。<br><br>
+          3. 静中念虑澄澈，见心之真体；闲中气象从容，识心之真机。<br><br>
+          4. 害人之心不可有，防人之心不可无，此戒疏于虑也；宁受人之欺，毋逆人之诈，此警伤于察也。二语并存，精明而浑厚矣。
+        </div>
+        <div class="sutra-translation">
+          1. 夜深人静的时候，独自静坐观照本心，才会发现妄念消散后真性自然流露，每每在这种境界中获得极大的妙趣。<br><br>
+          2. 荣耀与屈辱都不放在心上，悠闲地看庭院前的花开花落；官职的去留也不在意，随性地随天上的云卷云舒。<br><br>
+          3. 宁静之中心念澄澈，才能看见本心的本来面目；安闲之中气度从容，才能体悟本心的真正机趣。<br><br>
+          4. 伤害别人的心不能有，防备别人的心不能没有，这是告诫人思虑粗疏；宁可受别人欺骗，也不预先猜忌别人的狡诈，这是警惕人过于精明。这两句话并存，就能既明察事理又敦厚宽容。
+        </div>
+      </div>
+      <div class="sutra-divider"></div>
+      <div class="sutra-section">
+        <h4>应酬篇</h4>
+        <div class="sutra-original">
+          1. 处世让一步为高，退步即进步的张本；待人宽一分是福，利人实利己的根基。<br><br>
+          2. 事来而心始现，事去而心随空。<br><br>
+          3. 不责人小过，不发人阴私，不念人旧恶。三者可以养德，亦可以远害。<br><br>
+          4. 风来疏竹，风过而竹不留声；雁渡寒潭，雁去而潭不留影。故君子事来而心始现，事去而心随空。
+        </div>
+        <div class="sutra-translation">
+          1. 为人处世懂得谦让一步才算高明，退让正是日后进步的资本；待人接物宽厚一分便是福气，便利别人其实是便利自己的根基。<br><br>
+          2. 事情来了，心才随之显现；事情过去了，心就随之恢复空寂。<br><br>
+          3. 不指责别人的小过错，不揭发别人的隐私，不记恨别人过去的坏处。这三点既可以修养德行，也可以远离祸害。<br><br>
+          4. 风吹过稀疏的竹林，风过后竹林不再留下声响；大雁飞过清冷的水潭，雁飞走后潭面不再留下影子。所以君子事情来了心才相应，事情过去了心就归于空寂。
+        </div>
+      </div>
+      <div class="sutra-divider"></div>
+      <div class="sutra-section">
+        <h4>闲适篇</h4>
+        <div class="sutra-original">
+          1. 得趣不在多，盆池拳石间，烟霞俱足；会景不在远，蓬窗竹屋下，风月自赊。<br><br>
+          2. 静中观物动，闲处看人忙，才得超尘脱俗的趣味。<br><br>
+          3. 心安茅屋稳，性定菜根香。世事静方见，人情淡始长。<br><br>
+          4. 一字不识，而多诗意；一偈不参，而多禅意；一勺不濡，而多酒意；一石不晓，而多画意。淡宕故也。
+        </div>
+        <div class="sutra-translation">
+          1. 获得意趣不在多，盆大的池水、拳头大的山石之间，烟霞意境一样俱全；领略风景不在远，柴窗竹屋之下，清风明月自然充裕。<br><br>
+          2. 在宁静中观察万物的运动，在安闲中看世人的忙碌，才能体会到超脱尘俗的趣味。<br><br>
+          3. 内心安稳，住茅草屋也觉得安稳；心性安定，吃菜根也觉得香甜。世间万事，沉静下来才能看清；人情世故，平淡之中才能长久。<br><br>
+          4. 一个字不识，却富有诗意；一句偈语不参，却充满禅意；一滴酒不沾，却饱含酒意；一块石头不懂，却饶有画意。这都是因为心境淡泊自在的缘故。
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- 设置页 -->
+<div class="tab-content" id="tab-setting">
+  <div class="setting-row">
+    <input type="checkbox" id="notifySwitch">
+    <label for="notifySwitch">开启时辰推送提醒（需授权浏览器通知）</label>
+  </div>
+  <div class="setting-row">
+    <button class="btn btn-primary" id="reqNotify">申请通知权限</button>
+  </div>
+  <div class="quote-block">
+    道家不强行。提醒仅为观时，事不可强，则与时搁置，无需自责。
+    <br/><br/>
+    PWA提示：HTTPS环境下可添加至手机桌面，离线可打开。
+  </div>
+</div>
+
+</div>
+
+<script>
+// 十二时辰数据
+const shichenData = [
+  {name:"卯时",start:5,end:7,yinyang:"少阳初升 · 启",msg:"缓缓起身，舒展筋骨，勿猛起。缓步观晨光，少开尘务。",action:"伸导引、温水、静息，不刷消息。"},
+  {name:"辰时",start:7,end:9,yinyang:"胃当令 · 食朴",msg:"食以五谷，七分饱。食不言，细嚼安胃。",action:"清淡早餐，放下手机进食。"},
+  {name:"巳时",start:9,end:11,yinyang:"阳气盛 · 有为",msg:"精气充盈，可处理要事。一事一作，勿多扰心神。",action:"专注核心工作，每45分钟闭目静养片刻。"},
+  {name:"午时",start:11,end:13,yinyang:"阳极转阴 · 小憩",msg:"阳极生阴，宜小憩养心神。静卧或静坐15–30分钟，勿久眠昏沉。",action:"清淡午餐，闭目养神，不争论动怒。"},
+  {name:"未时",start:13,end:15,yinyang:"阳气缓降 · 理事",msg:"阳气渐缓，可处理杂务。不宜决断大事。",action:"回复消息、整理事务，起身舒展。"},
+  {name:"申时",start:15,end:17,yinyang:"膀胱当令 · 疏泄",msg:"气机宜舒展。缓步、站桩、导引，微汗即止，勿耗精气。",action:"轻运动，散步、八段锦、站桩。"},
+  {name:"酉时",start:17,end:19,yinyang:"肾当令 · 收",msg:"天地阳气收敛，减少新事开启。晚餐宜简，七分饱。",action:"简单复盘，不苛责自己；晚餐清淡。"},
+  {name:"戌时",start:19,end:21,yinyang:"心包当令 · 守静",msg:"外扰当息。少观喧嚣，可读、可静坐，远是非。",action:"远离短视频，独处静心，可诵读老庄短句。"},
+  {name:"亥时",start:21,end:23,yinyang:"三焦当令 · 安眠准备",msg:"百脉待养。熄屏，温水濯足，放下思虑，勿盘算得失。",action:"关灯减光，停止工作，准备入睡。"},
+  {name:"子时",start:23,end:1,yinyang:"阴极生阳 · 深睡",msg:"阴极阳生，元气当养。宜安卧，不可熬夜耗胆气。",action:"安寝，勿思虑。"},
+  {name:"丑时",start:1,end:3,yinyang:"肝当令 · 卧",msg:"卧以藏血，勿扰。",action:"深度睡眠。"},
+  {name:"寅时",start:3,end:5,yinyang:"肺当令 · 眠",msg:"肺气得肃，安寝为宜。",action:"深度睡眠。"}
+];
+
+// 查找当前时辰
+function getNowShichen(){
+  const h = new Date().getHours();
+  for(let s of shichenData){
+    if(s.start < s.end){
+      if(h >= s.start && h < s.end) return s;
+    }else{
+      if(h >= s.start || h < s.end) return s;
+    }
+  }
+  return shichenData[0];
+}
+
+// 渲染当前时辰
+function renderNow(){
+  const s = getNowShichen();
+  document.getElementById("nowShichen").innerText = `${s.name}｜${s.yinyang}`;
+  document.getElementById("shichenDesc").innerText = s.msg;
+  document.getElementById("shichenTip").innerText = `宜：${s.action}`;
+}
+
+// 渲染时辰列表
+function renderShichenList(){
+  const wrap = document.getElementById("shichenList");
+  wrap.innerHTML = "";
+  shichenData.forEach(s=>{
+    const div = document.createElement("div");
+    div.className = "shichen-item";
+    div.innerHTML = `
+      <h3>${s.name}（${s.start}:00-${s.end}:00）${s.yinyang}</h3>
+      <p>${s.msg}</p>
+      <p style="margin-top:4px;">宜：${s.action}</p>
+      <div class="btns">
+        <button class="btn btn-primary">顺时践行</button>
+        <button class="btn btn-soft">与时搁置</button>
+      </div>
+    `;
+    wrap.appendChild(div);
+  })
+}
+
+// Tab切换
+document.querySelectorAll(".tab").forEach(tab=>{
+  tab.onclick = ()=>{
+    document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
+    document.querySelectorAll(".tab-content").forEach(c=>c.classList.remove("active"));
+    tab.classList.add("active");
+    document.getElementById("tab-" + tab.dataset.tab).classList.add("active");
+  }
+})
+
+// 典籍折叠手风琴
+document.querySelectorAll(".sutra-title").forEach(title=>{
+  title.onclick = ()=>{
+    const item = title.parentElement;
+    item.classList.toggle("open");
+  }
+})
+
+// 本地存储自省札记
+function loadNotes(){
+  const raw = localStorage.getItem("baopu_notes");
+  const arr = raw ? JSON.parse(raw) : [];
+  const listDom = document.getElementById("noteList");
+  listDom.innerHTML = "";
+  arr.forEach(item=>{
+    const d = document.createElement("div");
+    d.className = "note-item";
+    d.innerText = `【${item.time}】${item.text}`;
+    listDom.appendChild(d);
+  })
+}
+function saveNote(){
+  const txt = document.getElementById("noteInput").value.trim();
+  if(!txt) return alert("请写下自省札记");
+  const raw = localStorage.getItem("baopu_notes");
+  const arr = raw ? JSON.parse(raw) : [];
+  const time = new Date().toLocaleString();
+  arr.push({time,text:txt});
+  localStorage.setItem("baopu_notes",JSON.stringify(arr));
+  document.getElementById("noteInput").value = "";
+  loadNotes();
+  alert("札记已保存，仅存本机");
+}
+function clearAllNotes(){
+  if(confirm("确定清空全部自省札记？不可恢复。")){
+    localStorage.removeItem("baopu_notes");
+    loadNotes();
+  }
+}
+document.getElementById("saveNote").onclick = saveNote;
+document.getElementById("clearNotes").onclick = clearAllNotes;
+
+// 浏览器通知
+let lastNotifyShichen = "";
+function requestNotifyPerm(){
+  if(!("Notification" in window)) return alert("浏览器不支持通知");
+  Notification.requestPermission().then(perm=>{
+    if(perm==="granted") alert("通知授权成功，时辰切换会推送提醒");
+    else alert("通知权限被拒绝");
+  })
+}
+document.getElementById("reqNotify").onclick = requestNotifyPerm;
+
+function checkNotify(){
+  const switchOn = document.getElementById("notifySwitch").checked;
+  if(!switchOn || Notification.permission !== "granted") return;
+  const s = getNowShichen();
+  if(lastNotifyShichen !== s.name){
+    new Notification(`抱朴时｜${s.name}`,{
+      body:s.msg,
+      icon:"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Ccircle cx='64' cy='64' r='60' fill='%23F5F2EB' stroke='%233A5959' stroke-width='3'/%3E%3Ctext x='64' y='72' font-size='36' text-anchor='middle' fill='%233A5959'%3E抱朴%3C/text%3E%3C/svg%3E"
+    });
+    lastNotifyShichen = s.name;
+  }
+}
+
+// ========== PWA Service Worker 注册 ==========
+if('serviceWorker' in navigator){
+  const swCode = `
+    const CACHE_NAME = 'baopushi-v3';
+    const assets = ['/'];
+    self.addEventListener('install', e=>{
+      e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(assets)).then(()=>self.skipWaiting()));
+    });
+    self.addEventListener('activate', e=>{
+      e.waitUntil(self.clients.claim());
+    });
+    self.addEventListener('fetch', e=>{
+      e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));
+    });
+  `;
+  const swBlob = new Blob([swCode], {type:"application/javascript"});
+  const swUrl = URL.createObjectURL(swBlob);
+  navigator.serviceWorker.register(swUrl).then(reg=>{
+    console.log("ServiceWorker注册成功，PWA离线就绪", reg);
+  }).catch(err=>{
+    console.log("SW注册失败", err);
+  });
+}
+
+// 初始化
+renderNow();
+renderShichenList();
+loadNotes();
+setInterval(renderNow, 1000*60);
+setInterval(checkNotify, 1000*30);
+</script>
+</body>
+</html>
